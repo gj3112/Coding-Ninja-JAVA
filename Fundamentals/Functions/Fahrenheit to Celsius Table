@@ -1,0 +1,12 @@
+public class Solution {
+
+	public static void printFahrenheitTable(int start, int end, int step) {
+	
+        for(int i = start;i<=end;i=i+step)             // i takes value starting from start till its reaches end with increament of step
+        {
+            System.out.println(i+"\t"+(((i-32)*5)/9)); // printing farenhight and corrsponding celsius value
+        }
+		
+        return ;                                       //function will not return anything since outpt type is void 
+	}
+}
